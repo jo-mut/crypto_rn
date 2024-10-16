@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"shadow.js.shim.module$$react_navigation$bottom_tabs.js",
+"lineCount":5,
+"mappings":"AAAAA,IAAKC,CAAAA,OAAL,CAAa,qDAAb,CAAA;AACAD,IAAKC,CAAAA,OAAL,CAAa,4DAAb,CAAA;AACAC,MAAOC,CAAAA,EAAGC,CAAAA,IAAKC,CAAAA,oCAAf,GAAsDH,MAAOC,CAAAA,EAAGG,CAAAA,cAAV,CAAyB,+BAAzB,CAAtD,GAAkHC,OAAA,CAAQ,+BAAR,CAAlH;AACAC,0DAA2DC,CAAAA,OAA3D,GAAqEP,MAAOC,CAAAA,EAAGC,CAAAA,IAAKC,CAAAA,oCAApF;;",
+"sources":["shadow.js.shim.module$$react_navigation$bottom_tabs.js"],
+"sourcesContent":["goog.provide(\"shadow.js.shim.module$$react_navigation$bottom_tabs\");\ngoog.provide(\"module$shadow_js_shim_module$$react_navigation$bottom_tabs\");\nshadow.js.shim.module$$react_navigation$bottom_tabs = shadow.js.nativeProvides[\"@react-navigation/bottom-tabs\"] = require(\"@react-navigation/bottom-tabs\");\nmodule$shadow_js_shim_module$$react_navigation$bottom_tabs.default = shadow.js.shim.module$$react_navigation$bottom_tabs;\n"],
+"names":["goog","provide","shadow","js","shim","module$$react_navigation$bottom_tabs","nativeProvides","require","module$shadow_js_shim_module$$react_navigation$bottom_tabs","default"]
+}

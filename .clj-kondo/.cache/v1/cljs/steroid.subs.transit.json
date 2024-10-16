@@ -1,0 +1,1 @@
+["^ ","~$reg-root-sub",["^ ","~:row",4,"~:col",1,"~:fixed-arities",["~#set",[1,2]],"~:name","^0","~:ns","~$steroid.subs","~:top-ns","^7","~:type","~:fn"],"~$reg-root-subs",["^ ","^1",10,"^2",1,"^3",["^4",[1]],"^5","^;","^6","^7","^8","^7","^9","^:"],"~:filename","/Users/john/.m2/repository/re-frame-steroid/re-frame-steroid/0.1.1/re-frame-steroid-0.1.1.jar:steroid/subs.cljs"]
