@@ -32,15 +32,15 @@ this.reader_opts = reader_opts;
 (taoensso.sente.packers.transit.TransitPacker.prototype.taoensso$sente$interfaces$IPacker$pack$arity$2 = (function (_,x){
 var self__ = this;
 var ___$1 = this;
-var fexpr__17996 = taoensso.sente.packers.transit.get_transit_writer_fn(self__.transit_fmt,self__.writer_opts);
-return (fexpr__17996.cljs$core$IFn$_invoke$arity$1 ? fexpr__17996.cljs$core$IFn$_invoke$arity$1(x) : fexpr__17996.call(null, x));
+var fexpr__23174 = taoensso.sente.packers.transit.get_transit_writer_fn(self__.transit_fmt,self__.writer_opts);
+return (fexpr__23174.cljs$core$IFn$_invoke$arity$1 ? fexpr__23174.cljs$core$IFn$_invoke$arity$1(x) : fexpr__23174.call(null, x));
 }));
 
 (taoensso.sente.packers.transit.TransitPacker.prototype.taoensso$sente$interfaces$IPacker$unpack$arity$2 = (function (_,s){
 var self__ = this;
 var ___$1 = this;
-var fexpr__17998 = taoensso.sente.packers.transit.get_transit_reader_fn(self__.transit_fmt,self__.reader_opts);
-return (fexpr__17998.cljs$core$IFn$_invoke$arity$1 ? fexpr__17998.cljs$core$IFn$_invoke$arity$1(s) : fexpr__17998.call(null, s));
+var fexpr__23175 = taoensso.sente.packers.transit.get_transit_reader_fn(self__.transit_fmt,self__.reader_opts);
+return (fexpr__23175.cljs$core$IFn$_invoke$arity$1 ? fexpr__23175.cljs$core$IFn$_invoke$arity$1(s) : fexpr__23175.call(null, s));
 }));
 
 (taoensso.sente.packers.transit.TransitPacker.getBasis = (function (){
@@ -66,8 +66,8 @@ return (new taoensso.sente.packers.transit.TransitPacker(transit_fmt,writer_opts
  * Returns a new TransitPacker
  */
 taoensso.sente.packers.transit.get_transit_packer = (function taoensso$sente$packers$transit$get_transit_packer(var_args){
-var G__18000 = arguments.length;
-switch (G__18000) {
+var G__23184 = arguments.length;
+switch (G__23184) {
 case 0:
 return taoensso.sente.packers.transit.get_transit_packer.cljs$core$IFn$_invoke$arity$0();
 
@@ -95,26 +95,26 @@ return taoensso.sente.packers.transit.get_transit_packer.cljs$core$IFn$_invoke$a
 }));
 
 (taoensso.sente.packers.transit.get_transit_packer.cljs$core$IFn$_invoke$arity$3 = (function (transit_fmt,writer_opts,reader_opts){
-var e_18008 = (function (){try{if((function (x){
-return cljs.core.contains_QMARK_((function (){var G__18004 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"json","json",1279968570),null], null), null);
-return (taoensso.truss.impl.set_STAR_.cljs$core$IFn$_invoke$arity$1 ? taoensso.truss.impl.set_STAR_.cljs$core$IFn$_invoke$arity$1(G__18004) : taoensso.truss.impl.set_STAR_.call(null, G__18004));
+var e_23236 = (function (){try{if((function (x){
+return cljs.core.contains_QMARK_((function (){var G__23189 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"json","json",1279968570),null], null), null);
+return (taoensso.truss.impl.set_STAR_.cljs$core$IFn$_invoke$arity$1 ? taoensso.truss.impl.set_STAR_.cljs$core$IFn$_invoke$arity$1(G__23189) : taoensso.truss.impl.set_STAR_.call(null, G__23189));
 })(),x);
 })(transit_fmt)){
 return null;
 } else {
 return taoensso.truss.impl._dummy_error;
 }
-}catch (e18003){if((e18003 instanceof Error)){
-var e_18008 = e18003;
-return e_18008;
+}catch (e23185){if((e23185 instanceof Error)){
+var e_23236 = e23185;
+return e_23236;
 } else {
-throw e18003;
+throw e23185;
 
 }
 }})();
-if((e_18008 == null)){
+if((e_23236 == null)){
 } else {
-taoensso.truss.impl._invar_violation_BANG_(true,"taoensso.sente.packers.transit",102,"([:el #{:json}] transit-fmt)",transit_fmt,e_18008,null);
+taoensso.truss.impl._invar_violation_BANG_(true,"taoensso.sente.packers.transit",102,"([:el #{:json}] transit-fmt)",transit_fmt,e_23236,null);
 }
 
 new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(function (){var e = (function (){try{if(cljs.core.map_QMARK_(writer_opts)){
@@ -122,11 +122,11 @@ return null;
 } else {
 return taoensso.truss.impl._dummy_error;
 }
-}catch (e18005){if((e18005 instanceof Error)){
-var e = e18005;
+}catch (e23196){if((e23196 instanceof Error)){
+var e = e23196;
 return e;
 } else {
-throw e18005;
+throw e23196;
 
 }
 }})();
@@ -140,11 +140,11 @@ return null;
 } else {
 return taoensso.truss.impl._dummy_error;
 }
-}catch (e18006){if((e18006 instanceof Error)){
-var e = e18006;
+}catch (e23204){if((e23204 instanceof Error)){
+var e = e23204;
 return e;
 } else {
-throw e18006;
+throw e23204;
 
 }
 }})();
