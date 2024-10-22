@@ -20,12 +20,7 @@
   (fn [& params]
     (let [[props children] (if (map? (first params))
                              [(first params) (second params)]
-                             [{} (first params)])]
-          (js/console.log (str "Home Component:" (into [navigator props]
-                                                       (mapv (fn [props]
-                                                               [screen (update props :component reagent/reactify-component)])
-                                                             children))))
-
+                             [{} (first params)])] 
       (into [navigator props]
             (mapv (fn [props]
                     [screen (update props :component reagent/reactify-component)])

@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"shadow.js.shim.module$react_native_vector_icons$MaterialIcons.js",
+"lineCount":5,
+"mappings":"AAAAA,IAAKC,CAAAA,OAAL,CAAa,+DAAb,CAAA;AACAD,IAAKC,CAAAA,OAAL,CAAa,sEAAb,CAAA;AACAC,MAAOC,CAAAA,EAAGC,CAAAA,IAAKC,CAAAA,8CAAf,GAAgEH,MAAOC,CAAAA,EAAGG,CAAAA,cAAV,CAAyB,yCAAzB,CAAhE,GAAsIC,OAAA,CAAQ,yCAAR,CAAtI;AACAC,oEAAqEC,CAAAA,OAArE,GAA+EP,MAAOC,CAAAA,EAAGC,CAAAA,IAAKC,CAAAA,8CAA9F;;",
+"sources":["shadow.js.shim.module$react_native_vector_icons$MaterialIcons.js"],
+"sourcesContent":["goog.provide(\"shadow.js.shim.module$react_native_vector_icons$MaterialIcons\");\ngoog.provide(\"module$shadow_js_shim_module$react_native_vector_icons$MaterialIcons\");\nshadow.js.shim.module$react_native_vector_icons$MaterialIcons = shadow.js.nativeProvides[\"react-native-vector-icons/MaterialIcons\"] = require(\"react-native-vector-icons/MaterialIcons\");\nmodule$shadow_js_shim_module$react_native_vector_icons$MaterialIcons.default = shadow.js.shim.module$react_native_vector_icons$MaterialIcons;\n"],
+"names":["goog","provide","shadow","js","shim","module$react_native_vector_icons$MaterialIcons","nativeProvides","require","module$shadow_js_shim_module$react_native_vector_icons$MaterialIcons","default"]
+}

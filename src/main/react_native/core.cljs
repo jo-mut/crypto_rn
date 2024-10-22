@@ -1,9 +1,15 @@
 (ns main.react-native.core
   (:require
    [reagent.core :as reagent]
-   ["react-native" :as react-native]))
+   ["react-native" :as react-native]
+   ["react-native-vector-icons/MaterialCommunityIcons" :default MaterialCommunityIcons]))
 
 (def view (reagent/adapt-react-class (.-View ^js react-native)))
+
+(def community-icons (reagent/adapt-react-class MaterialCommunityIcons))
+
+(def image-background
+  (reagent/adapt-react-class (.-ImageBackground ^js react-native)))
 
 (def ^:private image-native
   (reagent/adapt-react-class (.-Image ^js react-native)))

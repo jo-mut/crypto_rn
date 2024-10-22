@@ -1,0 +1,1 @@
+["^ ","~$header-bar",["^ ","~:row",5,"~:col",1,"~:fixed-arities",["~#set",[1]],"~:name","^0","~:ns","~$main.components.header-bar","~:top-ns","^7","~:arities",["^ ","~i1",["^ ","~:ret","~:vector","~:arglist-str","[{:keys [left-component title right-component]}]"]],"~:type","~:fn"],"~:filename","/Users/john/Documents/developer/rn/crypto_rn/src/main/components/header_bar.cljs"]

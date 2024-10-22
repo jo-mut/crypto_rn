@@ -1,5 +1,5 @@
 {:source-paths
- ["src" "resources"]
+ ["src"]
 
  :dependencies
  [[reagent "1.2.0"]

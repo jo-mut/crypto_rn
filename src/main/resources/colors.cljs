@@ -2,23 +2,23 @@
 
 
 (def colors
-  {:primary "#7F5DF0",
+  {:primary   "#7F5DF0",
    :secondary "#5D2DFD",
 
-   :white "#fff",
-   :black "#000000",
-   :green "#37E39F",
-   :red "#F9A8BA",
-   :gray "#6A6A6A",
-   :lightGray "#dbdbdb",
+   :white      "#fff",
+   :black      "#000000",
+   :green      "#37E39F",
+   :red        "#F9A8BA",
+   :gray       "#6A6A6A",
+   :lightGray  "#dbdbdb",
    :lightGray1 "#f5f6fa"})
 
 
 (def sizes
   {;; global sizes
-   :base 8,
-   :font 14,
-   :radius 12,
+   :base    8,
+   :font    14,
+   :radius  12,
    :padding 24,
 
    ;; font size

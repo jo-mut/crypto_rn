@@ -10,14 +10,14 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 });
 main.react_native.navigation.core.stack = (function main$react_native$navigation$core$stack(var_args){
 var args__5732__auto__ = [];
-var len__5726__auto___18308 = arguments.length;
-var i__5727__auto___18309 = (0);
+var len__5726__auto___18428 = arguments.length;
+var i__5727__auto___18429 = (0);
 while(true){
-if((i__5727__auto___18309 < len__5726__auto___18308)){
-args__5732__auto__.push((arguments[i__5727__auto___18309]));
+if((i__5727__auto___18429 < len__5726__auto___18428)){
+args__5732__auto__.push((arguments[i__5727__auto___18429]));
 
-var G__18310 = (i__5727__auto___18309 + (1));
-i__5727__auto___18309 = G__18310;
+var G__18430 = (i__5727__auto___18429 + (1));
+i__5727__auto___18429 = G__18430;
 continue;
 } else {
 }
@@ -29,30 +29,30 @@ return main.react_native.navigation.core.stack.cljs$core$IFn$_invoke$arity$varia
 });
 
 (main.react_native.navigation.core.stack.cljs$core$IFn$_invoke$arity$variadic = (function (params){
-var vec__18301 = main.react_native.navigation.core.create_stack_navigator();
-var navigator__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18301,(0),null);
-var screen__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18301,(1),null);
+var vec__18421 = main.react_native.navigation.core.create_stack_navigator();
+var navigator__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18421,(0),null);
+var screen__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18421,(1),null);
 return main.react_native.navigation.utils.prepare_navigator(navigator__$1,screen__$1);
 }));
 
 (main.react_native.navigation.core.stack.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(main.react_native.navigation.core.stack.cljs$lang$applyTo = (function (seq18300){
+(main.react_native.navigation.core.stack.cljs$lang$applyTo = (function (seq18420){
 var self__5712__auto__ = this;
-return self__5712__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18300));
+return self__5712__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18420));
 }));
 
 main.react_native.navigation.core.bottom_tabs = (function main$react_native$navigation$core$bottom_tabs(var_args){
 var args__5732__auto__ = [];
-var len__5726__auto___18311 = arguments.length;
-var i__5727__auto___18312 = (0);
+var len__5726__auto___18431 = arguments.length;
+var i__5727__auto___18432 = (0);
 while(true){
-if((i__5727__auto___18312 < len__5726__auto___18311)){
-args__5732__auto__.push((arguments[i__5727__auto___18312]));
+if((i__5727__auto___18432 < len__5726__auto___18431)){
+args__5732__auto__.push((arguments[i__5727__auto___18432]));
 
-var G__18313 = (i__5727__auto___18312 + (1));
-i__5727__auto___18312 = G__18313;
+var G__18433 = (i__5727__auto___18432 + (1));
+i__5727__auto___18432 = G__18433;
 continue;
 } else {
 }
@@ -64,18 +64,18 @@ return main.react_native.navigation.core.bottom_tabs.cljs$core$IFn$_invoke$arity
 });
 
 (main.react_native.navigation.core.bottom_tabs.cljs$core$IFn$_invoke$arity$variadic = (function (params){
-var vec__18305 = main.react_native.navigation.core.create_bottom_tab_navigator();
-var navigator__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18305,(0),null);
-var tab = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18305,(1),null);
+var vec__18425 = main.react_native.navigation.core.create_bottom_tab_navigator();
+var navigator__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18425,(0),null);
+var tab = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18425,(1),null);
 return main.react_native.navigation.utils.prepare_navigator(navigator__$1,tab);
 }));
 
 (main.react_native.navigation.core.bottom_tabs.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(main.react_native.navigation.core.bottom_tabs.cljs$lang$applyTo = (function (seq18304){
+(main.react_native.navigation.core.bottom_tabs.cljs$lang$applyTo = (function (seq18424){
 var self__5712__auto__ = this;
-return self__5712__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18304));
+return self__5712__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18424));
 }));
 
 

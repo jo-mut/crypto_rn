@@ -1,0 +1,11 @@
+goog.provide('main.resources.ui');
+main.resources.ui.images = new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"bitcoin","bitcoin",-876686519),require("../assets/images/bitcoin.png"),new cljs.core.Keyword(null,"ethereum","ethereum",-1829259167),require("../assets/images/ethereum.png"),new cljs.core.Keyword(null,"litecoin","litecoin",-1215287789),require("../assets/images/litecoin.png"),new cljs.core.Keyword(null,"ripple","ripple",-427079381),require("../assets/images/ripple.png"),new cljs.core.Keyword(null,"banner","banner",177448281),require("../assets/images/banner.png")], null);
+main.resources.ui.icons = cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"home","home",-74557309),new cljs.core.Keyword(null,"notification_white","notification_white",-2010553757),new cljs.core.Keyword(null,"settings","settings",1556144875),new cljs.core.Keyword(null,"transaction","transaction",1777321997),new cljs.core.Keyword(null,"star","star",279424429),new cljs.core.Keyword(null,"line_graph","line_graph",-2057178354),new cljs.core.Keyword(null,"right_arrow","right_arrow",469536977),new cljs.core.Keyword(null,"notification_color","notification_color",-552231181),new cljs.core.Keyword(null,"pie_chart","pie_chart",1830396278),new cljs.core.Keyword(null,"back_arrow","back_arrow",-2032995137)],[require("../assets/icons/home.png"),require("../assets/icons/notification_white.png"),require("../assets/icons/settings.png"),require("../assets/icons/transaction.png"),require("../assets/icons/star.png"),require("../assets/icons/line_graph.png"),require("../assets/icons/right_arrow.png"),require("../assets/icons/notification_color.png"),require("../assets/icons/pie_chart.png"),require("../assets/icons/back_arrow.png")]);
+main.resources.ui.get_image = (function main$resources$ui$get_image(k){
+return (k.cljs$core$IFn$_invoke$arity$1 ? k.cljs$core$IFn$_invoke$arity$1(main.resources.ui.images) : k.call(null, main.resources.ui.images));
+});
+main.resources.ui.get_icons = (function main$resources$ui$get_icons(k){
+return (k.cljs$core$IFn$_invoke$arity$1 ? k.cljs$core$IFn$_invoke$arity$1(main.resources.ui.icons) : k.call(null, main.resources.ui.icons));
+});
+
+//# sourceMappingURL=main.resources.ui.js.map
