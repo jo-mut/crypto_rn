@@ -1,5 +1,5 @@
 (ns main.screens.prices.view
- (:require [main.react-native.core :as rn]))
+ (:require [react-native.core :as rn]))
 
 
 (defn view []

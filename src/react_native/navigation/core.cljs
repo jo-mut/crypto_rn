@@ -1,10 +1,10 @@
-(ns main.react-native.navigation.core
+(ns react-native.navigation.core
   (:require
    ["@react-navigation/bottom-tabs" :refer (createBottomTabNavigator)]
    ["@react-navigation/native" :refer [NavigationContainer]]
    ["@react-navigation/native-stack" :refer [createNativeStackNavigator]]
    [reagent.core :as reagent]
-   [main.react-native.navigation.utils :as utils]))
+   [react-native.navigation.utils :as utils]))
 
 
 (def navigation-container (reagent/adapt-react-class NavigationContainer))

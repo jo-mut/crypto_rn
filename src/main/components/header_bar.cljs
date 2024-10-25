@@ -1,5 +1,5 @@
 (ns main.components.header-bar
-  (:require [main.react-native.core :as rn]
+  (:require [react-native.core :as rn]
             [main.components.text :as text]))
 
 (defn header-bar

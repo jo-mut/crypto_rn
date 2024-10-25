@@ -5,6 +5,7 @@
    :secondary "#5D2DFD"
    :white "#fff"
    :black "#000000"
+   :blue  "#0077b5"
    :green "#37E39F"
    :red "#F9A8BA"
    :gray "#6A6A6A"
@@ -25,6 +26,8 @@
    :body3   16
    :body4   14
    :body5   12
+   :body6   10
+   :body7    9
    :width   1
    :height  1})
 
@@ -56,4 +59,10 @@
            :lineHeight 22}
    :body5 {:fontFamily "Roboto-Regular"
            :fontSize   (:body5 size)
+           :lineHeight 22}
+   :body6 {:fontFamily "Roboto-Regular"
+           :fontSize   (:body6 size)
+           :lineHeight 22}
+   :body7 {:fontFamily "Roboto-Regular"
+           :fontSize   (:body7 size)
            :lineHeight 22}})

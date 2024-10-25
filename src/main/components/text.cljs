@@ -1,6 +1,6 @@
 (ns main.components.text
   [:require
-   [main.react-native.core :as rn]])
+   [react-native.core :as rn]])
 
 
 (defn text

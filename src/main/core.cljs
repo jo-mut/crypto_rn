@@ -6,9 +6,9 @@
    [main.screens.settings.view :as settings]
    [main.screens.portfolio.view :as portfolio]
    [main.screens.transactions.view :as transactions]
-   [main.react-native.core :as rn]
+   [react-native.core :as rn]
    [main.components.icons :as icons]
-   [main.react-native.navigation.core :as navigation]
+   [react-native.navigation.core :as navigation]
    [reagent.core :as reagent]))
 
 (defn main-screens []
@@ -24,7 +24,8 @@
        :options {:tabBarIcon (fn [{:keys [focused color size]}]
                                (reagent/as-element
                                 [icons/m-icon
-                                 {:name :home}]))}}
+                                 {:name :home
+                                  :size 24}]))}}
       {:name "Portfolio"
        :component portfolio/view
        :options {:tabBarIcon (fn [{:keys [focused color size]}]
@@ -51,16 +52,11 @@
        :options  {:tabBarIcon (fn [{:keys [focused color size]}]
                                 (reagent/as-element
                                  [icons/m-icon
-                                  {:name :settings
+                                  {:name :cog
                                    :size 24}]))}}]])
 
-(defn app-root []
-  (fn []
-    (try
-      (js/console.log "Loading Material Icons font...")
-      (.loadFont rn/material-community-icons)
-      (catch :default e
-        (js/console.error "Failed to load font:" e))))
+(defn app-root [] 
+  
   [navigation/navigation-container
    [navigation/stack
     {:screenOptions

@@ -1,7 +1,8 @@
-(ns main.react-native.core
+(ns react-native.core
   (:require
    [reagent.core :as reagent]
    ["react-native" :as react-native]
+   [react-native.flatlist :as  flat-list]
    ["react-native-vector-icons/MaterialCommunityIcons" :default MaterialCommunityIcons]))
 
 (def view (reagent/adapt-react-class (.-View ^js react-native)))
@@ -35,6 +36,8 @@
 
 (def touchable-without-feedback
   (reagent/adapt-react-class (.-TouchableWithoutFeedback ^js react-native)))
+
+(def flat-list flat-list/flat-list)
 
 (defn hide-splash-screen
   []

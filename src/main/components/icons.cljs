@@ -1,7 +1,7 @@
 (ns main.components.icons
   (:require
    ["react" :as react]
-   [main.react-native.core :as rn]
+   [react-native.core :as rn]
    [main.resources.ui :as resources]
    [reagent.core :as reagent]))
 
@@ -20,9 +20,6 @@
    :Zocial "Zocial"
    :SimpleLineIcons "SimpleLineIcons"})
 
-(defn use-mount [effect]
-  (react/useEffect effect #()))
-
 (defn m-icon
   [{:keys [name size color]}]
   (reagent/as-element
@@ -37,7 +34,9 @@
        :color color}])]))
 
 (defn icon
-  [{:keys [name size color]}]
+  [{:keys [name size]}]
   (reagent/as-element
    [rn/image
-    {:source (resources/get-icons name)}]))
+    {:source (resources/get-icons name)
+     :style {:width  size
+             :height size}}]))

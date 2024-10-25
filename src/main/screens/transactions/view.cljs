@@ -1,5 +1,6 @@
 (ns main.screens.transactions.view
- (:require [main.react-native.core :as rn]))
+ (:require 
+  [react-native.core :as rn]))
 
 (defn view []
   [rn/scroll-view
