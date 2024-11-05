@@ -1,11 +1,16 @@
 (ns main.screens.home.view
-  (:require [react-native.core :as rn]
-            [main.components.header-bar :as header-bar]
-            [main.resources.ui :as resources]
-            [main.constants.dummy :as dummy]
-            [main.components.list-items.trending-item :as trending-item]
-            [main.components.alert :as alert]
-            [main.constants.theme :as theme]))
+  (:require
+   [re-frame.core :as rf]
+   [react-native.core :as rn]
+   [main.components.header-bar :as header-bar]
+   [main.resources.ui :as resources]
+   [main.constants.dummy :as dummy]
+   [main.components.list-items.trending-item :as trending-item]
+   [main.components.alert :as alert]
+   [main.constants.theme :as theme]
+   [react-native.navigation.core :as navigation]
+   [main.screens.buy.view :as buy]
+   main.events))
 
 
 (defn balance []
@@ -36,7 +41,10 @@
 (defn trending-item
   []
   (fn [item]
-    [trending-item/view {:item item}]))
+    [rn/touchable-opacity
+     {:on-press (fn []
+                  (rf/dispatch [:navigate-to "Buy" {}]))}
+     [trending-item/view {:item item}]]))
 
 
 (defn trending []
@@ -59,9 +67,8 @@
        :render-fn           (fn [item]
                               [trending-item item])}]]))
 
-(defn- transaction-item 
-  []
-  )
+(defn- transaction-item
+  [])
 
 (defn transaction-history []
   (let [items dummy/trending-currencies]
@@ -128,7 +135,7 @@
    [rn/view {:margin-bottom -60}
     [trending]]])
 
-(defn view []
+(defn view [] 
   [rn/scroll-view
    [rn/view
     [header]

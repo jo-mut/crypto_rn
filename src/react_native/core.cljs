@@ -1,5 +1,6 @@
 (ns react-native.core
   (:require
+   ["react" :as react]
    [reagent.core :as reagent]
    ["react-native" :as react-native]
    [react-native.flatlist :as  flat-list]
@@ -62,4 +63,5 @@
   (memoize
    (fn []
      (js->clj (.get (.-Dimensions ^js react-native) "screen") :keywordize-keys true))))
+
 

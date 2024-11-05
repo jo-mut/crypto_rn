@@ -1,0 +1,1 @@
+{"version":3,"sources":["main/screens/trade/view.cljs"],"mappings":";AAIA,+BAAA,/BAAMA;AAAN,AAAA,0FAEGC","names":["main.screens.trade.view/view","react-native.core/view"],"sourcesContent":["(ns main.screens.trade.view \n  (:require [react-native.core :as rn]))\n\n\n(defn view \n  []\n  [rn/view])"]}

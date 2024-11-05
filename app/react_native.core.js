@@ -3,11 +3,11 @@ react_native.core.view = reagent.core.adapt_react_class(shadow.js.shim.module$re
 react_native.core.community_icons = reagent.core.adapt_react_class(shadow.js.shim.module$react_native_vector_icons$MaterialCommunityIcons.default);
 react_native.core.image_background = reagent.core.adapt_react_class(shadow.js.shim.module$react_native.ImageBackground);
 react_native.core.image_native = reagent.core.adapt_react_class(shadow.js.shim.module$react_native.Image);
-react_native.core.image = (function react_native$core$image(p__20573){
-var map__20574 = p__20573;
-var map__20574__$1 = cljs.core.__destructure_map(map__20574);
-var props = map__20574__$1;
-var source = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__20574__$1,new cljs.core.Keyword(null,"source","source",-433931539));
+react_native.core.image = (function react_native$core$image(p__20400){
+var map__20401 = p__20400;
+var map__20401__$1 = cljs.core.__destructure_map(map__20401);
+var props = map__20401__$1;
+var source = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__20401__$1,new cljs.core.Keyword(null,"source","source",-433931539));
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [react_native.core.image_native,((typeof source === 'string')?cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(props,new cljs.core.Keyword(null,"source","source",-433931539),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"uri","uri",-774711847),source], null)):props)], null);
 });
 react_native.core.scroll_view = reagent.core.adapt_react_class(shadow.js.shim.module$react_native.ScrollView);
